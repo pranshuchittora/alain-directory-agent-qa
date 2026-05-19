@@ -206,14 +206,17 @@
   last_checked: 2026-05-20
   notes: Kuaidi100 official GitHub org publishes an MCP server for trace query, delivery ETA, and shipping price estimates.
 
-- name: WeChat Read MCP
+- name: WeChat Read MCP / Skill
   owner: Tencent / WeChat Read
   vertical: reading
   service_scope: mainland-china
-  official_status: community-marketplace
+  official_status: official-skill
   mcp_status: third-party-server
-  skill_status: none-found
-  evidence_level: C
+  skill_status: official-skill
+  evidence_level: A
+  official_links:
+    - https://weread.qq.com/r/weread-skills
+    - https://cdn.weread.qq.com/skills/weread-skills.zip
   marketplace_links:
     - https://cloud.tencent.com/developer/mcp/server/11470
   third_party_links:
@@ -221,9 +224,10 @@
   risk_tags:
     - personal-data
     - reading-history
+    - api-key
     - cookies
   last_checked: 2026-05-20
-  notes: Tencent Cloud MCP Plaza lists a WeChat Read MCP by ChenyqThu, but it is not published by the WeChat Read team and requires user cookies.
+  notes: WeChat Read now publishes an official Skill for AI access to reading records, bookshelf, stats, notes, highlights, search, and recommendations; the MCP server listing remains a third-party/community implementation.
 
 - name: Enterprise WeChat / WeCom MCP
   owner: Tencent / WeCom

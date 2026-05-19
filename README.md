@@ -96,6 +96,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | Gemini CLI Context Files | Google | `global` | GEMINI.md, memory, context-imports | A | [Docs](https://google-gemini.github.io/gemini-cli/docs/cli/gemini-md.html) |
 | Warp Agent Rules | Warp | `global` | AGENTS.md, WARP.md, global-rules, project-rules | A | [Docs](https://docs.warp.dev/agent-platform/capabilities/rules) |
 | Zed Agent Rules | Zed | `global` | .rules, AGENTS.md, CLAUDE.md, GEMINI.md, rules-library | A | [Docs](https://zed.dev/docs/ai/rules) |
+| WeChat Read Skill | Tencent / WeChat Read | `mainland-china` | downloadable-skill-zip, api-key | A | [Docs](https://weread.qq.com/r/weread-skills) |
 
 ## Data
 

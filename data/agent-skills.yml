@@ -303,3 +303,17 @@
   evidence_level: A
   last_checked: 2026-05-20
   notes: Zed documents `.rules`, Rules Library, and compatibility with common agent instruction files for its Agent Panel.
+
+- name: WeChat Read Skill
+  organization: Tencent / WeChat Read
+  service_scope: mainland-china
+  category: official-agent-skills
+  skill_format:
+    - downloadable-skill-zip
+    - api-key
+  official_links:
+    - https://weread.qq.com/r/weread-skills
+    - https://cdn.weread.qq.com/skills/weread-skills.zip
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Official WeChat Read Skill connects an AI assistant to a user's reading records, bookshelf, reading stats, notes, highlights, book search, and recommendations through an API key.
