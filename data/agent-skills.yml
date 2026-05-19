@@ -1,0 +1,112 @@
+- name: Anthropic Agent Skills
+  organization: Anthropic
+  region: global
+  category: official-agent-skills
+  skill_format:
+    - SKILL.md
+  official_links:
+    - https://docs.claude.com/en/docs/agents-and-tools/agent-skills
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Agent Skills for Claude products, including prebuilt document skills and custom skills.
+
+- name: Claude Code Skills
+  organization: Anthropic
+  region: global
+  category: official-agent-skills
+  skill_format:
+    - SKILL.md
+  official_links:
+    - https://docs.claude.com/en/docs/claude-code/skills
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Claude Code discovers skills from personal, project, and plugin locations.
+
+- name: OpenAI / Codex Skills
+  organization: OpenAI
+  region: global
+  category: official-agent-skills
+  skill_format:
+    - SKILL.md
+  official_links:
+    - https://github.com/openai/skills
+    - https://github.com/openai/codex
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Official skills repository and Codex skill format.
+
+- name: Windsurf Cascade Skills
+  organization: Windsurf
+  region: global
+  category: official-agent-skills
+  skill_format:
+    - SKILL.md
+  official_links:
+    - https://docs.windsurf.com/windsurf/cascade/skills
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Workspace, global, and enterprise system skills for Cascade.
+
+- name: Salesforce Agentforce Skills
+  organization: Salesforce
+  region: global
+  category: official-agent-skills
+  skill_format:
+    - agentforce-skills
+    - abilities
+  official_links:
+    - https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/mdexperts.html
+    - https://developer.salesforce.com/blogs/2026/05/intent-driven-tool-selection-using-abilities-in-agentforce-vibes
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Agentforce Vibes uses Skills/Abilities alongside MCP tools.
+
+- name: MiniMax Skills
+  organization: MiniMax
+  region: china
+  category: official-agent-skills
+  skill_format:
+    - SKILL.md
+  official_links:
+    - https://github.com/MiniMax-AI/skills
+    - https://www.minimax.io/
+  evidence_level: A
+  last_checked: 2026-05-19
+  notes: Official MiniMax skills repository.
+
+- name: Huawei AgentArts Skill
+  organization: Huawei Cloud
+  region: china
+  category: platform-skills
+  skill_format:
+    - platform-skill
+  official_links:
+    - https://support.huaweicloud.com/lowcode-agentarts/agentarts_05_01301.html
+  evidence_level: A
+  last_checked: 2026-05-19
+  notes: AgentArts Skill documentation and OfficeClaw skill ecosystem.
+
+- name: Coze Skills
+  organization: Coze
+  region: china
+  category: platform-skills
+  skill_format:
+    - platform-skill
+  official_links:
+    - https://www.coze.cn/overview
+    - https://space.coze.cn/space-intro
+  evidence_level: B
+  last_checked: 2026-05-19
+  notes: Coze product pages mention skills; MCP relationship needs more verification.
+
+- name: DiDi Skills
+  organization: DiDi
+  region: china
+  category: platform-skills
+  skill_format:
+    - mcp-backed-skill
+  official_links:
+    - https://mcp.didichuxing.com/claw
+  evidence_level: B
+  last_checked: 2026-05-19
+  notes: DiDi page describes lightweight skills built on DiDi MCP Server.

@@ -1,0 +1,47 @@
+- name: DeepSeek
+  region: china
+  status: unverified
+  reason: No official MCP server or skills repository confirmed yet; most visible implementations are third-party.
+  last_checked: 2026-05-19
+
+- name: WPS Office
+  region: china
+  status: unverified
+  reason: Community and media references exist, but stable official MCP docs were not confirmed.
+  last_checked: 2026-05-19
+
+- name: iFlytek Spark
+  region: china
+  status: unverified
+  reason: Needs official platform documentation check for MCP or skills support.
+  last_checked: 2026-05-19
+
+- name: Slack
+  region: global
+  status: unverified
+  reason: Many community and marketplace entries exist; official Slack MCP server needs verification.
+  last_checked: 2026-05-20
+
+- name: JetBrains
+  region: global
+  status: unverified
+  reason: MCP support is referenced by broader ecosystem docs, but official JetBrains MCP/skill docs need verification.
+  last_checked: 2026-05-20
+
+- name: Docker
+  region: global
+  status: unverified
+  reason: Docker MCP catalog/toolkit references need official source review.
+  last_checked: 2026-05-20
+
+- name: Shopify
+  region: global
+  status: unverified
+  reason: Listed in MCP marketplaces; official docs need verification.
+  last_checked: 2026-05-20
+
+- name: Sentry
+  region: global
+  status: unverified
+  reason: Listed in MCP marketplaces; official docs need verification.
+  last_checked: 2026-05-20

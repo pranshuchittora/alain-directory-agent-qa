@@ -1,0 +1,448 @@
+- name: GitHub MCP Server
+  organization: GitHub
+  region: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - local-server
+    - registry
+    - client-integration
+  protocols:
+    - remote-mcp
+    - local-mcp
+  official_links:
+    - https://docs.github.com/en/copilot/concepts/about-mcp
+    - https://docs.github.com/en/copilot/concepts/coding-agent/mcp-and-coding-agent
+  evidence_level: A
+  risk_tags:
+    - code
+    - repository-data
+  last_checked: 2026-05-20
+  notes: GitHub-provided MCP server plus GitHub MCP Registry and Copilot integrations.
+
+- name: OpenAI Docs MCP
+  organization: OpenAI
+  region: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - docs
+  protocols:
+    - streamable-http
+  official_links:
+    - https://platform.openai.com/docs/docs-mcp
+    - https://platform.openai.com/docs/mcp/
+  evidence_level: A
+  risk_tags:
+    - docs-readonly
+  last_checked: 2026-05-20
+  notes: Public documentation-only MCP server at https://developers.openai.com/mcp.
+
+- name: Cloudflare MCP Servers
+  organization: Cloudflare
+  region: global
+  category: official-mcp-server
+  role:
+    - managed-remote-servers
+    - hosting
+    - governance
+  protocols:
+    - streamable-http
+    - sse
+  official_links:
+    - https://developers.cloudflare.com/agents/model-context-protocol/
+    - https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
+    - https://developers.cloudflare.com/agents/model-context-protocol/governance/
+  evidence_level: A
+  risk_tags:
+    - cloud-write
+    - enterprise-data
+  last_checked: 2026-05-20
+  notes: Managed remote MCP servers and governance through Cloudflare Access.
+
+- name: Figma Dev Mode MCP
+  organization: Figma
+  region: global
+  category: official-mcp-server
+  role:
+    - design-to-code
+    - local-server
+  protocols:
+    - sse
+    - http
+  official_links:
+    - https://developers.figma.com/docs/figma-mcp-server/
+    - https://developers.figma.com/docs/figma-mcp-server/local-server-installation/
+    - https://www.figma.com/blog/introducing-figmas-dev-mode-mcp-server/
+  evidence_level: A
+  risk_tags:
+    - design-data
+  last_checked: 2026-05-20
+  notes: Official Dev Mode MCP server for design context and code generation.
+
+- name: Notion MCP
+  organization: Notion
+  region: global
+  category: official-mcp-server
+  role:
+    - hosted-server
+    - workspace-data
+  protocols:
+    - remote-mcp
+  official_links:
+    - https://developers.notion.com/guides/mcp/overview
+  evidence_level: A
+  risk_tags:
+    - enterprise-data
+    - docs
+  last_checked: 2026-05-20
+  notes: Hosted MCP server for secure access to Notion workspaces.
+
+- name: Linear MCP
+  organization: Linear
+  region: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - project-management
+  protocols:
+    - streamable-http
+    - oauth
+  official_links:
+    - https://linear.app/docs/mcp
+  evidence_level: A
+  risk_tags:
+    - project-data
+    - write-actions
+  last_checked: 2026-05-20
+  notes: Official authenticated remote MCP server for Linear objects.
+
+- name: Atlassian Rovo MCP
+  organization: Atlassian
+  region: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - workplace-data
+  protocols:
+    - streamable-http
+    - oauth
+  official_links:
+    - https://support.atlassian.com/rovo/docs/atlassian-remote-mcp-server/
+    - https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/
+  evidence_level: A
+  risk_tags:
+    - enterprise-data
+    - write-actions
+  last_checked: 2026-05-20
+  notes: Remote MCP server for Jira, Compass, and Confluence Cloud.
+
+- name: Vercel MCP
+  organization: Vercel
+  region: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - hosting
+    - deployment
+  protocols:
+    - streamable-http
+    - oauth
+  official_links:
+    - https://vercel.com/docs/mcp/vercel-mcp/
+    - https://vercel.com/docs/cli/mcp
+    - https://vercel.com/docs/mcp/deploy-mcp-servers-to-vercel
+  evidence_level: A
+  risk_tags:
+    - cloud-write
+    - deployment
+  last_checked: 2026-05-20
+  notes: Official MCP server plus Vercel MCP hosting workflows.
+
+- name: Stripe MCP
+  organization: Stripe
+  region: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - payments
+  protocols:
+    - remote-mcp
+  official_links:
+    - https://docs.stripe.com/mcp
+  evidence_level: A
+  risk_tags:
+    - payment
+    - financial-data
+    - write-actions
+  last_checked: 2026-05-20
+  notes: Official MCP server for Stripe API and knowledge base access.
+
+- name: Zapier MCP
+  organization: Zapier
+  region: global
+  category: official-mcp-server
+  role:
+    - automation
+    - integration-hub
+    - embeddable-mcp
+  protocols:
+    - remote-mcp
+  official_links:
+    - https://docs.zapier.com/mcp/home
+    - https://help.zapier.com/hc/en-us/articles/36265392843917-Use-Zapier-MCP-with-your-client
+    - https://docs.zapier.com/powered-by-zapier/embedding-zapier-mcp/getting-started
+  evidence_level: A
+  risk_tags:
+    - automation
+    - write-actions
+    - third-party-apps
+  last_checked: 2026-05-20
+  notes: MCP access to Zapier app actions and embedded MCP flows.
+
+- name: Salesforce MCP Solutions
+  organization: Salesforce
+  region: global
+  category: mcp-platform
+  role:
+    - hosted-server
+    - local-server
+    - enterprise-platform
+  protocols:
+    - remote-mcp
+    - local-mcp
+  official_links:
+    - https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html
+    - https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-mcp.html
+  evidence_level: A
+  risk_tags:
+    - enterprise-data
+    - cloud-write
+    - code
+  last_checked: 2026-05-20
+  notes: Salesforce DX MCP, Hosted MCP, Heroku MCP, and MuleSoft MCP.
+
+- name: AWS Bedrock AgentCore MCP
+  organization: AWS
+  region: global
+  category: mcp-platform
+  role:
+    - runtime
+    - gateway
+    - hosted-server
+  protocols:
+    - streamable-http
+  official_links:
+    - https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-mcp.html
+    - https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/mcp-getting-started.html
+    - https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-using.html
+  evidence_level: A
+  risk_tags:
+    - cloud-write
+    - enterprise-data
+    - deployment
+  last_checked: 2026-05-20
+  notes: AgentCore supports deploying MCP servers and using MCP through runtime and gateway surfaces.
+
+- name: Google ADK / Gemini CLI MCP
+  organization: Google
+  region: global
+  category: mcp-platform
+  role:
+    - client-integration
+    - server-wrapper
+    - official-catalog
+  protocols:
+    - stdio
+    - streamable-http
+  official_links:
+    - https://google.github.io/adk-docs/tools-custom/mcp-tools/
+    - https://github.com/google-gemini/gemini-cli
+    - https://github.com/google/mcp
+  evidence_level: A
+  risk_tags:
+    - code
+    - cloud-write
+  last_checked: 2026-05-20
+  notes: ADK can consume MCP servers and expose ADK tools through MCP; Gemini CLI supports MCP.
+
+- name: Azure AI Foundry MCP
+  organization: Microsoft
+  region: global
+  category: mcp-platform
+  role:
+    - hosted-server
+    - platform-tools
+  protocols:
+    - http
+  official_links:
+    - https://learn.microsoft.com/en-us/azure/ai-foundry/mcp/get-started?view=foundry
+    - https://learn.microsoft.com/en-us/azure/foundry/mcp/build-your-own-mcp-server
+  evidence_level: A
+  risk_tags:
+    - cloud-write
+    - enterprise-data
+  last_checked: 2026-05-20
+  notes: Cloud-hosted Foundry MCP server and guidance for custom MCP registration.
+
+- name: Alibaba Cloud Model Studio MCP
+  organization: Alibaba Cloud
+  region: china
+  category: mcp-platform
+  role:
+    - marketplace
+    - custom-mcp
+    - official-services
+  protocols:
+    - unknown
+  official_links:
+    - https://help.aliyun.com/zh/model-studio/mcp-introduction
+    - https://help.aliyun.com/zh/model-studio/official-and-third-party-mcp
+    - https://help.aliyun.com/zh/model-studio/custom-mcp
+  evidence_level: A
+  risk_tags:
+    - cloud-write
+    - enterprise-data
+  last_checked: 2026-05-19
+  notes: Model Studio supports official, third-party, and custom MCP services.
+
+- name: ModelScope MCP Marketplace
+  organization: ModelScope
+  region: china
+  category: mcp-marketplace
+  role:
+    - marketplace
+    - benchmark
+  protocols:
+    - unknown
+  official_links:
+    - https://modelscope.cn/mcp
+    - https://github.com/modelscope/MCPBench
+  evidence_level: A
+  risk_tags:
+    - marketplace
+  last_checked: 2026-05-19
+  notes: Chinese MCP marketplace and ecosystem entry point.
+
+- name: Baidu Qianfan / Comate MCP
+  organization: Baidu
+  region: china
+  category: mcp-platform
+  role:
+    - app-builder
+    - coding-agent
+    - mcp-tools
+  protocols:
+    - unknown
+  official_links:
+    - https://cloud.baidu.com/doc/AI_REFERENCE/s/Dm9qfl477
+    - https://cloud.baidu.com/doc/qianfan-docs/s/Hm984ai00
+    - https://comate.baidu.com/docs/IDE%E5%8A%9F%E8%83%BD/MCP/
+  evidence_level: A
+  risk_tags:
+    - cloud-write
+    - code
+    - enterprise-data
+  last_checked: 2026-05-19
+  notes: Baidu AI open capabilities and Comate expose MCP tools and MCP configuration.
+
+- name: Tencent Yuanqi / CloudBase MCP
+  organization: Tencent
+  region: china
+  category: mcp-platform
+  role:
+    - plugin-marketplace
+    - cloudbase
+    - coding-agent
+  protocols:
+    - unknown
+  official_links:
+    - https://yuanqi.tencent.com/guide/plugin-market-integrate-mcp-plugin
+    - https://github.com/TencentCloudBase/CloudBase-MCP
+    - https://docs.cloudbase.net/ai/mcp/develop/cloudbase-mcp
+  evidence_level: A
+  risk_tags:
+    - cloud-write
+    - enterprise-data
+    - code
+  last_checked: 2026-05-19
+  notes: Tencent Yuanqi supports MCP plugins; CloudBase publishes an official MCP implementation.
+
+- name: Huawei AgentArts MCP
+  organization: Huawei Cloud
+  region: china
+  category: mcp-platform
+  role:
+    - marketplace
+    - custom-mcp
+    - agent-platform
+  protocols:
+    - unknown
+  official_links:
+    - https://support.huaweicloud.com/usermanual-agentarts/agentarts_05_0137.html
+    - https://support.huaweicloud.com/productdesc-versatile/versatile_01_0005.html
+  evidence_level: A
+  risk_tags:
+    - cloud-write
+    - enterprise-data
+  last_checked: 2026-05-19
+  notes: AgentArts and Versatile documentation cover MCP usage and asset-center capabilities.
+
+- name: MiniMax MCP
+  organization: MiniMax
+  region: china
+  category: official-mcp-server
+  role:
+    - server
+    - multimodal-tools
+  protocols:
+    - stdio
+    - sse
+  official_links:
+    - https://platform.minimax.io/docs/guides/mcp-guide
+    - https://github.com/MiniMax-AI/MiniMax-MCP
+  evidence_level: A
+  risk_tags:
+    - media-generation
+    - api
+  last_checked: 2026-05-19
+  notes: Official MiniMax MCP server and docs.
+
+- name: Z.ai MCP Calling
+  organization: Z.ai
+  region: china
+  category: mcp-platform
+  role:
+    - api-mcp-calling
+    - mcp-server
+  protocols:
+    - remote-mcp
+  official_links:
+    - https://docs.z.ai/guides/capabilities/mcp-call
+    - https://docs.z.ai/devpack/mcp/vision-mcp-server
+    - https://zcode.z.ai/en/newdocs/mcp-services
+  evidence_level: A
+  risk_tags:
+    - api
+    - code
+  last_checked: 2026-05-19
+  notes: Z.ai documents MCP server calling and multiple MCP service surfaces.
+
+- name: Kimi Playground MCP
+  organization: Moonshot AI
+  region: china
+  category: mcp-client-integration
+  role:
+    - client-integration
+    - playground
+    - cli
+  protocols:
+    - unknown
+  official_links:
+    - https://platform.kimi.ai/docs/guide/configure-the-modelscope-mcp-server
+    - https://moonshotai.github.io/kimi-cli/en/reference/kimi-mcp.html
+  evidence_level: B
+  risk_tags:
+    - client-integration
+  last_checked: 2026-05-19
+  notes: Kimi Playground can configure ModelScope MCP; Kimi CLI has MCP management commands.
