@@ -1,5 +1,7 @@
 # Awesome Official MCP Servers & Agent Skills
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 A curated list of official MCP servers, MCP platforms, registries, and agent skill ecosystems.
 
 This project is official-first. It does not try to be another broad MCP server directory. It tracks platform-backed agent capabilities: official MCP support, official MCP servers, registries, marketplaces, skills, `SKILL.md` ecosystems, and governance surfaces.
