@@ -379,14 +379,16 @@
   protocols:
     - unknown
   official_links:
+    - https://www.huaweicloud.com/product/agentarts.html
     - https://support.huaweicloud.com/usermanual-agentarts/agentarts_05_0137.html
-    - https://support.huaweicloud.com/productdesc-versatile/versatile_01_0005.html
+    - https://support.huaweicloud.com/usermanual-agentarts0/agentarts_05_0136.html
+    - https://support.huaweicloud.com/productdesc-agentarts/agentarts-productdesc-pdf.pdf
   evidence_level: A
   risk_tags:
     - cloud-write
     - enterprise-data
-  last_checked: 2026-05-19
-  notes: AgentArts and Versatile documentation cover MCP usage and asset-center capabilities.
+  last_checked: 2026-05-20
+  notes: AgentArts public product page mentions MCP and Skills; deep support docs cover MCP usage and custom MCP access but may be region/session sensitive.
 
 - name: MiniMax MCP
   organization: MiniMax

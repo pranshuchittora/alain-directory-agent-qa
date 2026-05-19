@@ -81,10 +81,11 @@
   skill_format:
     - platform-skill
   official_links:
+    - https://www.huaweicloud.com/product/agentarts.html
     - https://support.huaweicloud.com/lowcode-agentarts/agentarts_05_01301.html
   evidence_level: A
-  last_checked: 2026-05-19
-  notes: AgentArts Skill documentation and OfficeClaw skill ecosystem.
+  last_checked: 2026-05-20
+  notes: AgentArts public product page mentions rich Skills; deep support docs cover Skill packaging and SKILL.md-style fields but may be region/session sensitive.
 
 - name: Coze Skills
   organization: Coze

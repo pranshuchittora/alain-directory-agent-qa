@@ -56,7 +56,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | ModelScope MCP Marketplace | ModelScope | `mainland-china` | marketplace, benchmark | A | [Marketplace](https://modelscope.cn/mcp) |
 | Baidu Qianfan / Comate MCP | Baidu | `mainland-china` | app builder, coding agent, mcp tools | A | [Docs](https://cloud.baidu.com/doc/AI_REFERENCE/s/Dm9qfl477) |
 | Tencent Yuanqi / CloudBase MCP | Tencent | `mainland-china` | plugin marketplace, cloudbase, coding agent | A | [Docs](https://yuanqi.tencent.com/guide/plugin-market-integrate-mcp-plugin) |
-| Huawei AgentArts MCP | Huawei Cloud | `mainland-china` | marketplace, custom mcp, agent platform | A | [Docs](https://support.huaweicloud.com/usermanual-agentarts/agentarts_05_0137.html) |
+| Huawei AgentArts MCP | Huawei Cloud | `mainland-china` | marketplace, custom mcp, agent platform | A | [Docs](https://www.huaweicloud.com/product/agentarts.html) |
 | MiniMax MCP | MiniMax | `mainland-china / international` | server, multimodal tools | A | [Docs](https://platform.minimax.io/docs/guides/mcp-guide) |
 | Z.ai MCP Calling | Z.ai | `mainland-china / international` | api mcp calling, mcp server | A | [Docs](https://docs.z.ai/guides/capabilities/mcp-call) |
 | Kimi Playground MCP | Moonshot AI | `mainland-china` | client integration, playground, CLI | B | [Docs](https://platform.kimi.ai/docs/guide/configure-the-modelscope-mcp-server) |
@@ -81,7 +81,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | Windsurf Cascade Skills | Windsurf | `global` | `SKILL.md` | A | [Docs](https://docs.windsurf.com/windsurf/cascade/skills) |
 | Salesforce Agentforce Skills | Salesforce | `global` | agentforce-skills, abilities | A | [Docs](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/mdexperts.html) |
 | MiniMax Skills | MiniMax | `mainland-china / international` | `SKILL.md` | A | [Repo](https://github.com/MiniMax-AI/skills) |
-| Huawei AgentArts Skill | Huawei Cloud | `mainland-china` | platform-skill | A | [Docs](https://support.huaweicloud.com/lowcode-agentarts/agentarts_05_01301.html) |
+| Huawei AgentArts Skill | Huawei Cloud | `mainland-china` | platform-skill | A | [Docs](https://www.huaweicloud.com/product/agentarts.html) |
 | Coze Skills | Coze | `mainland-china / international` | platform-skill | B | [Docs](https://www.coze.cn/overview) |
 | DiDi Skills | DiDi | `mainland-china` | mcp-backed-skill | B | [Docs](https://mcp.didichuxing.com/claw) |
 | Sentry Agent Skills | Sentry | `global` | dotagents, npx-skills | A | [Docs](https://docs.sentry.io/platforms/javascript/guides/cloudflare/tracing/instrumentation/ai-agents-module/) |
