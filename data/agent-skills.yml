@@ -1,6 +1,6 @@
 - name: Anthropic Agent Skills
   organization: Anthropic
-  region: global
+  service_scope: global
   category: official-agent-skills
   skill_format:
     - SKILL.md
@@ -12,7 +12,7 @@
 
 - name: Claude Code Skills
   organization: Anthropic
-  region: global
+  service_scope: global
   category: official-agent-skills
   skill_format:
     - SKILL.md
@@ -24,7 +24,7 @@
 
 - name: OpenAI / Codex Skills
   organization: OpenAI
-  region: global
+  service_scope: global
   category: official-agent-skills
   skill_format:
     - SKILL.md
@@ -37,7 +37,7 @@
 
 - name: Windsurf Cascade Skills
   organization: Windsurf
-  region: global
+  service_scope: global
   category: official-agent-skills
   skill_format:
     - SKILL.md
@@ -49,7 +49,7 @@
 
 - name: Salesforce Agentforce Skills
   organization: Salesforce
-  region: global
+  service_scope: global
   category: official-agent-skills
   skill_format:
     - agentforce-skills
@@ -63,7 +63,7 @@
 
 - name: MiniMax Skills
   organization: MiniMax
-  region: china
+  service_scope: cn-international-split
   category: official-agent-skills
   skill_format:
     - SKILL.md
@@ -72,11 +72,11 @@
     - https://www.minimax.io/
   evidence_level: A
   last_checked: 2026-05-19
-  notes: Official MiniMax skills repository.
+  notes: Official MiniMax skills repository; MiniMax API docs distinguish international and mainland China hosts.
 
 - name: Huawei AgentArts Skill
   organization: Huawei Cloud
-  region: china
+  service_scope: cn-mainland
   category: platform-skills
   skill_format:
     - platform-skill
@@ -88,20 +88,31 @@
 
 - name: Coze Skills
   organization: Coze
-  region: china
+  service_scope: cn-international-split
   category: platform-skills
   skill_format:
     - platform-skill
   official_links:
     - https://www.coze.cn/overview
+    - https://www.coze.com/
     - https://space.coze.cn/space-intro
+  editions:
+    - name: Coze China
+      service_scope: cn-mainland
+      domains:
+        - coze.cn
+        - space.coze.cn
+    - name: Coze International
+      service_scope: international
+      domains:
+        - coze.com
   evidence_level: B
   last_checked: 2026-05-19
-  notes: Coze product pages mention skills; MCP relationship needs more verification.
+  notes: Coze China pages mention skills; international edition exists at coze.com, but MCP relationship still needs more verification.
 
 - name: DiDi Skills
   organization: DiDi
-  region: china
+  service_scope: cn-mainland
   category: platform-skills
   skill_format:
     - mcp-backed-skill
