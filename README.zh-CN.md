@@ -1,10 +1,10 @@
-﻿# Awesome 官方 MCP Servers 与 Agent Skills
+# Awesome 官方 MCP Servers 与 Agent Skills
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 一个 official-first 的 MCP Server、MCP 平台、注册表、市场与 Agent Skill 生态索引。
 
-本项目不想再做一个泛泛的 MCP Server 黄页。我们重点跟踪平台背书的 Agent 能力：官方 MCP 支持、官方 MCP Server、注册表、市场、Skills、`SKILL.md` 生态与治理能力。
+本项目重点跟踪平台背书的 Agent 能力：官方 MCP 支持、官方 MCP Server、注册表、市场、Skills、`SKILL.md` 生态与治理能力。
 
 ## 范围
 
@@ -34,32 +34,42 @@
 | `international` | 非大陆版或海外版 |
 | `mainland-china / international` | 同时涉及国内版和海外版；域名、账号体系或 API host 差异放到 `editions` |
 
-## 官方 MCP Servers
+## 官方 MCP Servers 与平台
 
 | 名称 | 组织 | 服务范围 | 角色 | 证据 | 链接 |
 | --- | --- | --- | --- | --- | --- |
-| GitHub MCP Server | GitHub | `global` | 远程/本地 MCP Server、Copilot 集成、注册表 | A | [Docs](https://docs.github.com/en/copilot/concepts/about-mcp) |
-| OpenAI Docs MCP | OpenAI | `global` | 公共文档 MCP Server | A | [Docs](https://platform.openai.com/docs/docs-mcp) |
-| Cloudflare MCP Servers | Cloudflare | `global` | 托管远程 MCP Server、MCP 托管、治理 | A | [Docs](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) |
-| Figma Dev Mode MCP | Figma | `global` | 设计到代码 MCP Server | A | [Docs](https://developers.figma.com/docs/figma-mcp-server/) |
-| Notion MCP | Notion | `global` | 托管工作区 MCP Server | A | [Docs](https://developers.notion.com/guides/mcp/overview) |
-| Linear MCP | Linear | `global` | 远程 MCP Server | A | [Docs](https://linear.app/docs/mcp) |
-| Atlassian Rovo MCP | Atlassian | `global` | Jira、Confluence、Compass 远程 MCP Server | A | [Docs](https://support.atlassian.com/rovo/docs/atlassian-remote-mcp-server/) |
-| Vercel MCP | Vercel | `global` | 官方远程 MCP Server 与 MCP 托管 | A | [Docs](https://vercel.com/docs/mcp/vercel-mcp/) |
-| Stripe MCP | Stripe | `global` | Stripe API 与文档 MCP Server | A | [Docs](https://docs.stripe.com/mcp) |
-| Zapier MCP | Zapier | `global` | 自动化 MCP 端点与可嵌入 MCP | A | [Docs](https://docs.zapier.com/mcp/home) |
-| Salesforce MCP Solutions | Salesforce | `global` | Salesforce DX、Hosted MCP、Heroku、MuleSoft | A | [Docs](https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html) |
-| AWS Bedrock AgentCore MCP | AWS | `global` | MCP runtime、gateway 与托管 Server 工作流 | A | [Docs](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-mcp.html) |
-| Google ADK / Gemini CLI MCP | Google | `global` | MCP client/server bridge 与官方 MCP catalog | A | [ADK](https://google.github.io/adk-docs/tools-custom/mcp-tools/) |
-| Azure AI Foundry MCP | Microsoft | `global` | 云托管 Foundry MCP Server | A | [Docs](https://learn.microsoft.com/en-us/azure/ai-foundry/mcp/get-started?view=foundry) |
-| Alibaba Cloud Model Studio MCP | Alibaba Cloud | `mainland-china` | MCP 服务、自定义 MCP、市场 | A | [Docs](https://help.aliyun.com/zh/model-studio/mcp-introduction) |
-| ModelScope MCP Marketplace | ModelScope | `mainland-china` | MCP 市场与 benchmark 生态 | A | [Marketplace](https://modelscope.cn/mcp) |
-| Baidu Qianfan / Comate MCP | Baidu | `mainland-china` | AppBuilder/Comate MCP 支持与工具 | A | [Docs](https://cloud.baidu.com/doc/AI_REFERENCE/s/Dm9qfl477) |
-| Tencent Yuanqi / CloudBase MCP | Tencent | `mainland-china` | MCP 插件、CloudBase MCP、ADP MCP | A | [Yuanqi](https://yuanqi.tencent.com/guide/plugin-market-integrate-mcp-plugin) |
-| Huawei AgentArts MCP | Huawei Cloud | `mainland-china` | MCP 市场、自定义 MCP 服务 | A | [Docs](https://support.huaweicloud.com/usermanual-agentarts/agentarts_05_0137.html) |
-| MiniMax MCP | MiniMax | `mainland-china / international` | 官方 MCP Server 与文档 | A | [Docs](https://platform.minimax.io/docs/guides/mcp-guide) |
-| Z.ai MCP Calling | Z.ai | `mainland-china / international` | API 级 MCP Server 调用 | A | [Docs](https://docs.z.ai/guides/capabilities/mcp-call) |
-| Kimi Playground MCP | Moonshot AI | `mainland-china` | 通过 ModelScope 与 CLI 的 MCP client 集成 | B | [Docs](https://platform.kimi.ai/docs/guide/configure-the-modelscope-mcp-server) |
+| GitHub MCP Server | GitHub | `global` | 远程 Server, 本地 Server, 注册表, 客户端集成 | A | [Docs](https://docs.github.com/en/copilot/concepts/about-mcp) |
+| OpenAI Docs MCP | OpenAI | `global` | 远程 Server, 文档 | A | [Docs](https://platform.openai.com/docs/docs-mcp) |
+| Cloudflare MCP Servers | Cloudflare | `global` | 托管远程 Server, 托管, 治理 | A | [Docs](https://developers.cloudflare.com/agents/model-context-protocol/) |
+| Figma Dev Mode MCP | Figma | `global` | 设计到代码, 本地 Server | A | [Docs](https://developers.figma.com/docs/figma-mcp-server/) |
+| Notion MCP | Notion | `global` | 托管 Server, 工作区数据 | A | [Docs](https://developers.notion.com/guides/mcp/overview) |
+| Linear MCP | Linear | `global` | 远程 Server, 项目管理 | A | [Docs](https://linear.app/docs/mcp) |
+| Atlassian Rovo MCP | Atlassian | `global` | 远程 Server, 协作数据 | A | [Docs](https://support.atlassian.com/rovo/docs/atlassian-remote-mcp-server/) |
+| Vercel MCP | Vercel | `global` | 远程 Server, 托管, 部署 | A | [Docs](https://vercel.com/docs/mcp/vercel-mcp/) |
+| Stripe MCP | Stripe | `global` | 远程 Server, 支付 | A | [Docs](https://docs.stripe.com/mcp) |
+| Zapier MCP | Zapier | `global` | 自动化, 集成平台, 可嵌入 MCP | A | [Docs](https://docs.zapier.com/mcp/home) |
+| Salesforce MCP Solutions | Salesforce | `global` | 托管 Server, 本地 Server, 企业平台 | A | [Docs](https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html) |
+| AWS Bedrock AgentCore MCP | AWS | `global` | 运行时, 网关, 托管 Server | A | [Docs](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-mcp.html) |
+| Google ADK / Gemini CLI MCP | Google | `global` | 客户端集成, Server wrapper, 官方目录 | A | [Docs](https://google.github.io/adk-docs/tools-custom/mcp-tools/) |
+| Azure AI Foundry MCP | Microsoft | `global` | 托管 Server, 平台工具 | A | [Docs](https://learn.microsoft.com/en-us/azure/ai-foundry/mcp/get-started?view=foundry) |
+| Alibaba Cloud Model Studio MCP | Alibaba Cloud | `mainland-china` | 市场, 自定义 MCP, 官方服务 | A | [Docs](https://help.aliyun.com/zh/model-studio/mcp-introduction) |
+| ModelScope MCP Marketplace | ModelScope | `mainland-china` | 市场, benchmark | A | [Marketplace](https://modelscope.cn/mcp) |
+| Baidu Qianfan / Comate MCP | Baidu | `mainland-china` | 应用构建, 编码 Agent, MCP 工具 | A | [Docs](https://cloud.baidu.com/doc/AI_REFERENCE/s/Dm9qfl477) |
+| Tencent Yuanqi / CloudBase MCP | Tencent | `mainland-china` | 插件市场, CloudBase, 编码 Agent | A | [Docs](https://yuanqi.tencent.com/guide/plugin-market-integrate-mcp-plugin) |
+| Huawei AgentArts MCP | Huawei Cloud | `mainland-china` | 市场, 自定义 MCP, Agent 平台 | A | [Docs](https://support.huaweicloud.com/usermanual-agentarts/agentarts_05_0137.html) |
+| MiniMax MCP | MiniMax | `mainland-china / international` | Server, 多模态工具 | A | [Docs](https://platform.minimax.io/docs/guides/mcp-guide) |
+| Z.ai MCP Calling | Z.ai | `mainland-china / international` | API 级 MCP 调用, MCP Server | A | [Docs](https://docs.z.ai/guides/capabilities/mcp-call) |
+| Kimi Playground MCP | Moonshot AI | `mainland-china` | 客户端集成, Playground, CLI | B | [Docs](https://platform.kimi.ai/docs/guide/configure-the-modelscope-mcp-server) |
+| Docker MCP Catalog and Toolkit | Docker | `global` | 可信目录, 容器化 Server, 网关, 客户端集成 | A | [Docs](https://docs.docker.com/ai/mcp-catalog-and-toolkit/) |
+| Playwright MCP | Microsoft / Playwright | `global` | 浏览器自动化, 本地 Server, 测试 | A | [Docs](https://playwright.dev/docs/getting-started-mcp) |
+| Browserbase MCP Server | Browserbase | `global` | 托管 Server, 本地 Server, 浏览器自动化 | A | [Docs](https://docs.browserbase.com/integrations/mcp/introduction) |
+| Supabase MCP | Supabase | `global` | 托管 Server, 数据库, Postgres, 文档 | A | [Docs](https://supabase.com/docs/guides/ai-tools/mcp) |
+| MongoDB MCP Server | MongoDB | `global` | 数据库, 本地 Server, 客户端集成 | A | [Docs](https://www.mongodb.com/docs/mcp-server/) |
+| Neon MCP Server | Neon | `global` | 托管 Server, 数据库, Postgres | A | [Docs](https://neon.com/docs/ai/neon-mcp-server) |
+| Redis MCP | Redis | `global` | 数据库, 本地 Server, 向量检索 | A | [Docs](https://redis.io/docs/latest/integrate/redis-mcp/) |
+| Shopify MCP Servers | Shopify | `global` | 商业, 购物, API 开发, 托管 Server, 本地 Server | A | [Docs](https://shopify.dev/docs/apps/build/ai-toolkit) |
+| Postman Official MCP Server List | Postman | `global` | 官方目录, API 开发 | A | [Directory](https://www.postman.com/getmcp/official-mcp-server-list/overview) |
+| Sentry MCP Server and Monitoring | Sentry | `global` | 远程 Server, 可观测性, 问题排查, 监控 | A | [Docs](https://docs.sentry.io/product/sentry-mcp/) |
 
 ## 官方 Agent Skills
 
@@ -69,15 +79,16 @@
 | Claude Code Skills | Anthropic | `global` | `SKILL.md` | A | [Docs](https://docs.claude.com/en/docs/claude-code/skills) |
 | OpenAI / Codex Skills | OpenAI | `global` | `SKILL.md` | A | [Repo](https://github.com/openai/skills) |
 | Windsurf Cascade Skills | Windsurf | `global` | `SKILL.md` | A | [Docs](https://docs.windsurf.com/windsurf/cascade/skills) |
-| Salesforce Agentforce Skills | Salesforce | `global` | Agentforce Skills / Abilities | A | [Docs](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/mdexperts.html) |
-| MiniMax Skills | MiniMax | `mainland-china / international` | Agent Skills repository | A | [Repo](https://github.com/MiniMax-AI/skills) |
-| Huawei AgentArts Skill | Huawei Cloud | `mainland-china` | Platform Skill | A | [Docs](https://support.huaweicloud.com/lowcode-agentarts/agentarts_05_01301.html) |
-| Coze Skills | Coze | `mainland-china / international` | Platform skills | B | [Overview](https://www.coze.cn/overview) |
-| DiDi Skills | DiDi | `mainland-china` | MCP-backed lightweight skills | B | [Docs](https://mcp.didichuxing.com/claw) |
+| Salesforce Agentforce Skills | Salesforce | `global` | agentforce-skills, abilities | A | [Docs](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/mdexperts.html) |
+| MiniMax Skills | MiniMax | `mainland-china / international` | `SKILL.md` | A | [Repo](https://github.com/MiniMax-AI/skills) |
+| Huawei AgentArts Skill | Huawei Cloud | `mainland-china` | platform-skill | A | [Docs](https://support.huaweicloud.com/lowcode-agentarts/agentarts_05_01301.html) |
+| Coze Skills | Coze | `mainland-china / international` | platform-skill | B | [Docs](https://www.coze.cn/overview) |
+| DiDi Skills | DiDi | `mainland-china` | mcp-backed-skill | B | [Docs](https://mcp.didichuxing.com/claw) |
+| Sentry Agent Skills | Sentry | `global` | dotagents, npx-skills | A | [Docs](https://docs.sentry.io/platforms/javascript/guides/cloudflare/tracing/instrumentation/ai-agents-module/) |
 
 ## 数据
 
-README 会保持简短。结构化数据在：
+README 表格由结构化数据生成：
 
 - [data/official-mcp-servers.yml](data/official-mcp-servers.yml)
 - [data/agent-skills.yml](data/agent-skills.yml)
@@ -87,4 +98,3 @@ README 会保持简短。结构化数据在：
 ## 贡献
 
 欢迎提交 Pull Request。新增条目请提供官方证据链接和证据等级。只有第三方实现的项目应进入 watchlist，而不是官方主表。
-

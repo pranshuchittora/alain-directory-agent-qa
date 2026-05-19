@@ -468,3 +468,236 @@
     - client-integration
   last_checked: 2026-05-19
   notes: Kimi Playground can configure ModelScope MCP; Kimi CLI has MCP management commands.
+
+- name: Docker MCP Catalog and Toolkit
+  organization: Docker
+  service_scope: global
+  category: mcp-platform
+  role:
+    - verified-catalog
+    - containerized-servers
+    - gateway
+    - client-integration
+  protocols:
+    - oci-catalog
+    - stdio
+    - streamable-http
+  official_links:
+    - https://docs.docker.com/ai/mcp-catalog-and-toolkit/
+    - https://docs.docker.com/ai/mcp-catalog-and-toolkit/catalog/
+    - https://github.com/docker/mcp-registry
+  evidence_level: A
+  risk_tags:
+    - third-party-apps
+    - local-files
+    - code
+  last_checked: 2026-05-20
+  notes: Docker MCP Catalog and Toolkit provide verified containerized MCP servers, profiles, gateway, and Docker Desktop integration.
+
+- name: Playwright MCP
+  organization: Microsoft / Playwright
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - browser-automation
+    - local-server
+    - testing
+  protocols:
+    - stdio
+    - http
+  official_links:
+    - https://playwright.dev/docs/getting-started-mcp
+    - https://playwright.dev/mcp/vision-mode
+  evidence_level: A
+  risk_tags:
+    - browser-automation
+    - local-files
+    - code
+    - web-access
+  last_checked: 2026-05-20
+  notes: Official Playwright MCP server exposes browser automation through structured accessibility snapshots and optional browser capabilities.
+
+- name: Browserbase MCP Server
+  organization: Browserbase
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - hosted-server
+    - local-server
+    - browser-automation
+  protocols:
+    - streamable-http
+    - stdio
+  official_links:
+    - https://docs.browserbase.com/integrations/mcp/introduction
+    - https://docs.browserbase.com/integrations/mcp/configuration
+    - https://github.com/browserbase/mcp-server-browserbase
+  evidence_level: A
+  risk_tags:
+    - browser-automation
+    - web-access
+    - credentials
+  last_checked: 2026-05-20
+  notes: Browserbase provides hosted and local MCP options for browser automation through Browserbase infrastructure and Stagehand.
+
+- name: Supabase MCP
+  organization: Supabase
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - hosted-server
+    - database
+    - postgres
+    - docs
+  protocols:
+    - streamable-http
+    - oauth
+  official_links:
+    - https://supabase.com/docs/guides/ai-tools/mcp
+    - https://supabase.com/blog/mcp-server
+    - https://github.com/supabase-community/supabase-mcp
+  evidence_level: A
+  risk_tags:
+    - database
+    - enterprise-data
+    - write-actions
+  last_checked: 2026-05-20
+  notes: Supabase documents a hosted MCP endpoint with OAuth, project scoping, read-only mode, and database, debugging, docs, and account-management tools.
+
+- name: MongoDB MCP Server
+  organization: MongoDB
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - database
+    - local-server
+    - client-integration
+  protocols:
+    - stdio
+    - local-mcp
+  official_links:
+    - https://www.mongodb.com/docs/mcp-server/
+    - https://www.mongodb.com/products/tools/mcp-server
+    - https://www.mongodb.com/docs/mongodb-vscode/mcp-server/
+  evidence_level: A
+  risk_tags:
+    - database
+    - enterprise-data
+    - write-actions
+  last_checked: 2026-05-20
+  notes: MongoDB MCP Server connects agentic AI tools to MongoDB data and deployments, including Atlas and VS Code workflows.
+
+- name: Neon MCP Server
+  organization: Neon
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - hosted-server
+    - database
+    - postgres
+  protocols:
+    - streamable-http
+    - oauth
+    - local-mcp
+  official_links:
+    - https://neon.com/docs/ai/neon-mcp-server
+  evidence_level: A
+  risk_tags:
+    - database
+    - enterprise-data
+    - write-actions
+    - cloud-write
+  last_checked: 2026-05-20
+  notes: Neon MCP Server supports hosted and local setup for managing Neon Postgres projects, branches, databases, and SQL workflows.
+
+- name: Redis MCP
+  organization: Redis
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - database
+    - local-server
+    - vector-search
+  protocols:
+    - unknown
+  official_links:
+    - https://redis.io/docs/latest/integrate/redis-mcp/
+    - https://redis.io/docs/latest/develop/ai/redisvl/concepts/mcp/
+  evidence_level: A
+  risk_tags:
+    - database
+    - enterprise-data
+    - write-actions
+  last_checked: 2026-05-20
+  notes: Redis documents Redis MCP and RedisVL MCP for accessing, querying, and managing Redis-backed data from MCP clients.
+
+- name: Shopify MCP Servers
+  organization: Shopify
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - commerce
+    - shopping
+    - api-development
+    - hosted-server
+    - local-server
+  protocols:
+    - stdio
+    - http
+  official_links:
+    - https://shopify.dev/docs/apps/build/ai-toolkit
+    - https://shopify.dev/docs/apps/build/storefront-mcp/servers/storefront
+    - https://shopify.dev/docs/agents/catalog/mcp
+    - https://shopify.dev/docs/agents/checkout/mcp
+  evidence_level: A
+  risk_tags:
+    - commerce
+    - payment
+    - personal-data
+    - write-actions
+  last_checked: 2026-05-20
+  notes: Shopify documents Dev MCP, Storefront MCP, Catalog MCP, and Checkout MCP surfaces for developer and agentic commerce workflows.
+
+- name: Postman Official MCP Server List
+  organization: Postman
+  service_scope: global
+  category: mcp-registry
+  role:
+    - official-catalog
+    - api-development
+  protocols:
+    - unknown
+  official_links:
+    - https://www.postman.com/getmcp/official-mcp-server-list/overview
+    - https://www.postman.com/explore/mcp-servers
+  evidence_level: A
+  risk_tags:
+    - api
+    - third-party-apps
+  last_checked: 2026-05-20
+  notes: Postman maintains an official directory of vetted, first-party MCP server collections in the Postman API Network.
+
+- name: Sentry MCP Server and Monitoring
+  organization: Sentry
+  service_scope: global
+  category: official-mcp-server
+  role:
+    - remote-server
+    - observability
+    - issue-triage
+    - monitoring
+  protocols:
+    - remote-mcp
+    - oauth
+  official_links:
+    - https://docs.sentry.io/product/sentry-mcp/
+    - https://mcp.sentry.dev/
+    - https://docs.sentry.io/product/insights/ai/
+    - https://sentry.io/changelog/mcp-monitoring---generally-available/
+    - https://docs.sentry.io/platforms/javascript/guides/cloudflare/tracing/instrumentation/ai-agents-module/
+  evidence_level: A
+  risk_tags:
+    - telemetry
+    - enterprise-data
+  last_checked: 2026-05-20
+  notes: Sentry provides an official MCP server plus MCP monitoring for tool executions, resources, prompts, transport usage, latency, and failures.

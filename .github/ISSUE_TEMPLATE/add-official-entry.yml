@@ -1,0 +1,56 @@
+name: Add official MCP or Skill entry
+description: Suggest an official MCP server, MCP platform, registry, or Agent Skill entry.
+title: "Add: "
+labels:
+  - data
+  - official-entry
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Official product or project name.
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+      description: Provider or owning organization.
+    validations:
+      required: true
+  - type: dropdown
+    id: entry_type
+    attributes:
+      label: Entry type
+      options:
+        - Official MCP server or platform
+        - Official Agent Skill ecosystem
+        - China vertical app tracking
+        - Watchlist candidate
+    validations:
+      required: true
+  - type: input
+    id: official_links
+    attributes:
+      label: Official evidence links
+      description: Official docs, official repository, product page, or marketplace listing.
+    validations:
+      required: true
+  - type: dropdown
+    id: service_scope
+    attributes:
+      label: Service scope
+      options:
+        - global
+        - mainland-china
+        - international
+        - mainland-china / international
+        - unknown
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Short evidence summary, risks, or caveats.

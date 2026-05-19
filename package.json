@@ -1,0 +1,11 @@
+{
+  "name": "awesome-mcp-skills",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:readme": "node scripts/generate-readme.mjs",
+    "validate:data": "node scripts/validate-data.mjs",
+    "check": "npm run validate:data && npm run generate:readme -- --check"
+  }
+}

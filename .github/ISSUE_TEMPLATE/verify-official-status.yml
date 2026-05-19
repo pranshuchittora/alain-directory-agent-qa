@@ -1,0 +1,32 @@
+name: Verify or dispute official status
+description: Report an entry whose official status, evidence level, or scope may be wrong.
+title: "Verify: "
+labels:
+  - verification
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+    validations:
+      required: true
+  - type: dropdown
+    id: concern
+    attributes:
+      label: Concern
+      options:
+        - Not official
+        - Evidence level too high
+        - Service scope is wrong
+        - Link is broken or stale
+        - Duplicate entry
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Add official links or explain why the current evidence should change.
+    validations:
+      required: true

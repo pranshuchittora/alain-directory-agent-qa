@@ -27,21 +27,3 @@
   status: unverified
   reason: MCP support is referenced by broader ecosystem docs, but official JetBrains MCP/skill docs need verification.
   last_checked: 2026-05-20
-
-- name: Docker
-  service_scope: global
-  status: unverified
-  reason: Docker MCP catalog/toolkit references need official source review.
-  last_checked: 2026-05-20
-
-- name: Shopify
-  service_scope: global
-  status: unverified
-  reason: Listed in MCP marketplaces; official docs need verification.
-  last_checked: 2026-05-20
-
-- name: Sentry
-  service_scope: global
-  status: unverified
-  reason: Listed in MCP marketplaces; official docs need verification.
-  last_checked: 2026-05-20

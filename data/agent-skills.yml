@@ -121,3 +121,16 @@
   evidence_level: B
   last_checked: 2026-05-19
   notes: DiDi page describes lightweight skills built on DiDi MCP Server.
+
+- name: Sentry Agent Skills
+  organization: Sentry
+  service_scope: global
+  category: official-agent-skills
+  skill_format:
+    - dotagents
+    - npx-skills
+  official_links:
+    - https://docs.sentry.io/platforms/javascript/guides/cloudflare/tracing/instrumentation/ai-agents-module/
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Sentry docs publish agent skills for setting up AI Agent Monitoring in coding assistants.
