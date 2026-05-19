@@ -1,0 +1,396 @@
+- name: DiDi MCP Service
+  owner: DiDi
+  vertical: mobility
+  official_status: official
+  mcp_status: official-server
+  skill_status: official-skill
+  evidence_level: A
+  official_links:
+    - https://mcp.didichuxing.com/
+    - https://mcp.didichuxing.com/api
+    - https://clawhub.ai/didi/didi-ride-skill-official
+  risk_tags:
+    - mobility
+    - location
+    - payment
+    - real-world-actions
+  last_checked: 2026-05-20
+  notes: Official DiDi MCP service exposes ride-hailing and maps tools, with DiDi Skills built on top.
+
+- name: Tencent Docs MCP
+  owner: Tencent
+  vertical: docs
+  official_status: official
+  mcp_status: official-server
+  skill_status: unknown
+  evidence_level: A
+  official_links:
+    - https://developer.cloud.tencent.com/mcp/server/11803
+    - https://docs.qq.com/open/auth/mcp.html
+  risk_tags:
+    - enterprise-data
+    - docs
+    - write-actions
+  last_checked: 2026-05-20
+  notes: Tencent Cloud MCP Plaza lists Tencent Docs MCP by Tencent Docs team; endpoint is https://docs.qq.com/openapi/mcp.
+
+- name: Tencent RTC / Instant Messaging MCP
+  owner: Tencent Cloud
+  vertical: communication
+  official_status: official
+  mcp_status: official-server
+  skill_status: docs-mention
+  evidence_level: A
+  official_links:
+    - https://cloud.tencent.com/document/product/269/126983
+    - https://intl.cloud.tencent.com/document/product/1047/78210
+  risk_tags:
+    - communication
+    - credentials
+    - code
+  last_checked: 2026-05-20
+  notes: Tencent Cloud documents MCP servers for IM/RTC developer workflows and TUIKit integration.
+
+- name: WeChat Pay MCP
+  owner: Tencent / WeChat Pay
+  vertical: payment
+  official_status: official
+  mcp_status: official-plugin
+  skill_status: none-found
+  evidence_level: A
+  official_links:
+    - https://yuanqi.tencent.com/guide/wechat-pay-mcp-plugin
+    - https://yuanqi.tencent.com/guide/agent-build-wechat-pay-mcp
+  risk_tags:
+    - payment
+    - financial-data
+    - write-actions
+  last_checked: 2026-05-19
+  notes: Official Yuanqi documentation covers WeChat Pay MCP plugin and payment-enabled agents.
+
+- name: Feishu / Lark OpenAPI MCP
+  owner: ByteDance / Lark
+  vertical: workplace
+  official_status: official
+  mcp_status: official-server
+  skill_status: third-party-skills
+  evidence_level: A
+  official_links:
+    - https://github.com/larksuite/lark-openapi-mcp
+    - https://open.feishu.cn/document/mcp_open_tools/end-user-call-remote-mcp-server
+  risk_tags:
+    - enterprise-data
+    - communication
+    - calendar
+    - docs
+    - write-actions
+  last_checked: 2026-05-20
+  notes: Official Feishu/Lark OpenAPI MCP wraps platform APIs for docs, chat, calendar, tasks, and more.
+
+- name: DingTalk MCP
+  owner: Alibaba / DingTalk
+  vertical: workplace
+  official_status: official
+  mcp_status: official-server
+  skill_status: third-party-skills
+  evidence_level: A
+  official_links:
+    - https://open.dingtalk.com/document/ai-dev/dingtalk-server-api-mcp-overview
+    - https://github.com/open-dingtalk/dingtalk-mcp
+  risk_tags:
+    - enterprise-data
+    - communication
+    - write-actions
+  last_checked: 2026-05-19
+  notes: DingTalk has official MCP documentation and an open-dingtalk repository.
+
+- name: Alipay MCP
+  owner: Ant Group / Alipay
+  vertical: payment
+  official_status: needs-official-docs
+  mcp_status: official-package-or-marketplace
+  skill_status: none-found
+  evidence_level: C
+  official_links:
+    - https://www.npmjs.com/package/@alipay/open-mcp-server
+    - https://www.npmjs.com/package/@alipay/mcp-server-alipay
+  supporting_links:
+    - https://mcp.programnotes.cn/zh/servers/mcp-server-alipay
+    - https://www.aibase.com/news/17162
+  risk_tags:
+    - payment
+    - financial-data
+    - refunds
+    - write-actions
+  last_checked: 2026-05-20
+  notes: NPM packages under the @alipay scope and ModelScope/media references exist, but stable Alipay Open Platform docs still need verification.
+
+- name: Baidu Maps MCP
+  owner: Baidu Maps
+  vertical: maps
+  official_status: official
+  mcp_status: official-server
+  skill_status: none-found
+  evidence_level: A
+  official_links:
+    - https://github.com/baidu-maps/mcp
+  risk_tags:
+    - location
+    - maps
+  last_checked: 2026-05-20
+  notes: Official baidu-maps GitHub organization publishes Baidu Map MCP Server.
+
+- name: AMap MCP
+  owner: AutoNavi / AMap
+  vertical: maps
+  official_status: likely-official
+  mcp_status: official-package-or-marketplace
+  skill_status: third-party-skills
+  evidence_level: B
+  official_links:
+    - https://www.npmjs.com/package/@amap/amap-maps-mcp-server
+  supporting_links:
+    - https://support.huaweicloud.com/usermanual-maas-modelarts/MaaS%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97-pdf.pdf
+  risk_tags:
+    - location
+    - maps
+  last_checked: 2026-05-20
+  notes: The @amap npm package and mcp.amap.com examples appear in platform docs; official AMap developer docs still need a stable MCP page.
+
+- name: Kuaidi100 MCP
+  owner: Kuaidi100 API
+  vertical: logistics
+  official_status: official
+  mcp_status: official-server
+  skill_status: none-found
+  evidence_level: A
+  official_links:
+    - https://github.com/kuaidi100-api/kuaidi100-MCP
+    - https://tcb.cloud.tencent.com/mcp-server/mcp-kuaidi100
+    - https://docs.cloudbase.net/en/ai/mcp/develop/server-templates/cloudrun-mcp-kuaidi100
+  risk_tags:
+    - logistics
+    - personal-data
+    - phone-number
+  last_checked: 2026-05-20
+  notes: Kuaidi100 official GitHub org publishes an MCP server for trace query, delivery ETA, and shipping price estimates.
+
+- name: WeChat Read MCP
+  owner: Tencent / WeChat Read
+  vertical: reading
+  official_status: community-marketplace
+  mcp_status: third-party-server
+  skill_status: none-found
+  evidence_level: C
+  marketplace_links:
+    - https://cloud.tencent.com/developer/mcp/server/11470
+  third_party_links:
+    - https://github.com/freestylefly/mcp-server-weread
+  risk_tags:
+    - personal-data
+    - reading-history
+    - cookies
+  last_checked: 2026-05-20
+  notes: Tencent Cloud MCP Plaza lists a WeChat Read MCP by ChenyqThu, but it is not published by the WeChat Read team and requires user cookies.
+
+- name: Enterprise WeChat / WeCom MCP
+  owner: Tencent / WeCom
+  vertical: workplace
+  official_status: unverified
+  mcp_status: community-only
+  skill_status: third-party-skills
+  evidence_level: D
+  third_party_links:
+    - https://www.npmjs.com/package/@kedoupi/wecombot-mcp
+    - https://github.com/sunnoy/openclaw-plugin-wecom
+  risk_tags:
+    - enterprise-data
+    - communication
+    - webhook
+  last_checked: 2026-05-20
+  notes: Community WeCom MCP implementations exist, but official WeCom MCP docs were not confirmed.
+
+- name: WPS Office MCP
+  owner: Kingsoft Office / WPS
+  vertical: office
+  official_status: unverified
+  mcp_status: third-party-or-rumored
+  skill_status: none-found
+  evidence_level: D
+  third_party_links:
+    - https://viasocket.com/mcp/wps-office-spreadsheets
+  risk_tags:
+    - docs
+    - enterprise-data
+  last_checked: 2026-05-20
+  notes: Third-party WPS spreadsheet MCP references exist, but official WPS Open Platform MCP docs were not confirmed.
+
+- name: Baidu Netdisk MCP
+  owner: Baidu
+  vertical: cloud-storage
+  official_status: community-only
+  mcp_status: third-party-server
+  skill_status: none-found
+  evidence_level: X
+  third_party_links:
+    - https://pypi.org/project/netdisk-mcp-server/
+  risk_tags:
+    - cloud-storage
+    - personal-files
+    - cookies
+  last_checked: 2026-05-20
+  notes: Only third-party MCP implementations were found; do not list as official.
+
+- name: WeChat Official Accounts MCP
+  owner: Tencent / WeChat
+  vertical: content
+  official_status: community-only
+  mcp_status: third-party-server
+  skill_status: none-found
+  evidence_level: X
+  third_party_links:
+    - https://github.com/xwang152-jack/wechat-official-account-mcp
+  risk_tags:
+    - content-publishing
+    - credentials
+    - write-actions
+  last_checked: 2026-05-20
+  notes: WeChat Official Account MCP implementations are third-party wrappers around official APIs.
+
+- name: WeChat Mini Program Dev MCP
+  owner: Tencent / WeChat
+  vertical: developer-tools
+  official_status: community-only
+  mcp_status: third-party-server
+  skill_status: third-party-skills
+  evidence_level: X
+  third_party_links:
+    - https://github.com/yfmeii/weapp-dev-mcp
+    - https://pypi.org/project/wechat-devtools-mcp/
+  risk_tags:
+    - code
+    - local-tools
+  last_checked: 2026-05-20
+  notes: Community tools automate WeChat Developer Tools; CloudBase MCP is official but is a broader cloud platform entry.
+
+- name: Tencent Meeting MCP
+  owner: Tencent Meeting
+  vertical: meetings
+  official_status: unverified
+  mcp_status: not-confirmed
+  skill_status: third-party-skill
+  evidence_level: D
+  third_party_links:
+    - https://skillsmp.com/zh/skills/weclaw007-weclaw-src-weclaw-skills-tencent-meeting-skill-md
+  risk_tags:
+    - meetings
+    - calendar
+  last_checked: 2026-05-20
+  notes: A third-party skill reference exists; official Tencent Meeting MCP docs were not confirmed.
+
+- name: Xiaohongshu MCP
+  owner: Xiaohongshu
+  vertical: social-commerce
+  official_status: community-only
+  mcp_status: third-party-server
+  skill_status: none-found
+  evidence_level: X
+  third_party_links:
+    - https://github.com/xpzouying/xiaohongshu-mcp
+    - https://algovate.github.io/xhs-mcp/README.en.html
+  risk_tags:
+    - social-media
+    - publishing
+    - cookies
+    - automation-risk
+  last_checked: 2026-05-20
+  notes: Several community automation MCP servers exist; no official Xiaohongshu MCP was confirmed.
+
+- name: Douyin MCP
+  owner: ByteDance / Douyin
+  vertical: short-video
+  official_status: community-only
+  mcp_status: third-party-server
+  skill_status: third-party-plugin
+  evidence_level: X
+  third_party_links:
+    - https://protodex.io/servers/terrytz-dy-mcp-server.html
+    - https://www.pulsemcp.com/servers/edisonzszs-douyin
+  risk_tags:
+    - social-media
+    - publishing
+    - automation-risk
+  last_checked: 2026-05-20
+  notes: Search found community Douyin MCP projects, not official Douyin developer documentation.
+
+- name: Bilibili MCP
+  owner: Bilibili
+  vertical: video
+  official_status: community-only
+  mcp_status: third-party-server
+  skill_status: none-found
+  evidence_level: X
+  third_party_links:
+    - https://www.npmjs.com/package/@mcpcn/mcp-bilibili
+  risk_tags:
+    - video
+    - publishing
+    - oauth
+  last_checked: 2026-05-20
+  notes: Third-party Bilibili MCP wrappers exist; no official Bilibili MCP was confirmed.
+
+- name: Meituan MCP
+  owner: Meituan
+  vertical: local-services
+  official_status: not-found
+  mcp_status: not-confirmed
+  skill_status: none-found
+  evidence_level: X
+  third_party_links:
+    - https://pypi.org/project/mcp-meituan-ip/
+  risk_tags:
+    - local-services
+  last_checked: 2026-05-20
+  notes: Search found unrelated/community Meituan-named packages, not official Meituan MCP.
+
+- name: Ctrip / Trip.com MCP
+  owner: Trip.com Group
+  vertical: travel
+  official_status: not-found
+  mcp_status: not-confirmed
+  skill_status: none-found
+  evidence_level: X
+  third_party_links:
+    - https://apitracker.io/a/ctrip/mcp
+  risk_tags:
+    - travel
+  last_checked: 2026-05-20
+  notes: API tracker reported no MCP servers for Ctrip; third-party travel scrapers should not be treated as official.
+
+- name: SF Express MCP
+  owner: SF Express
+  vertical: logistics
+  official_status: not-found
+  mcp_status: not-confirmed
+  skill_status: none-found
+  evidence_level: X
+  official_links:
+    - https://qiao.sf-express.com/doc/download/%E4%B8%B0%E6%A1%A5%E5%B9%B3%E5%8F%B0%E6%96%B0API%E6%8E%A5%E5%8F%A3%E8%A7%84%E8%8C%83.pdf
+  risk_tags:
+    - logistics
+  last_checked: 2026-05-20
+  notes: SF has official API docs, but no official MCP support was confirmed.
+
+- name: JD / Taobao / Tmall / Cainiao MCP
+  owner: JD / Alibaba commerce ecosystem
+  vertical: ecommerce
+  official_status: not-found
+  mcp_status: not-confirmed
+  skill_status: none-found
+  evidence_level: X
+  risk_tags:
+    - ecommerce
+    - logistics
+    - payment
+  last_checked: 2026-05-20
+  notes: No official MCP support was confirmed in this pass; keep as search targets for future verification.

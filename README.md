@@ -74,6 +74,7 @@ The README is intentionally short. Structured data lives in:
 
 - [data/official-mcp-servers.yml](data/official-mcp-servers.yml)
 - [data/agent-skills.yml](data/agent-skills.yml)
+- [data/china-vertical-apps.yml](data/china-vertical-apps.yml)
 - [data/watchlist.yml](data/watchlist.yml)
 
 ## Contributing
