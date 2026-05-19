@@ -10,7 +10,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 
 - Official MCP servers and hosted MCP endpoints
 - MCP platforms, registries, marketplaces, gateways, and governance tools
-- Official Agent Skills, `SKILL.md` systems, and skill marketplaces
+- Official Agent Skills, `SKILL.md` systems, skill marketplaces, and skill-like agent customization surfaces
 - Global, mainland China, and international service editions, with evidence levels for every entry
 
 ## Evidence Levels
@@ -71,7 +71,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | Postman Official MCP Server List | Postman | `global` | official catalog, api development | A | [Directory](https://www.postman.com/getmcp/official-mcp-server-list/overview) |
 | Sentry MCP Server and Monitoring | Sentry | `global` | remote server, observability, issue triage, monitoring | A | [Docs](https://docs.sentry.io/product/sentry-mcp/) |
 
-## Official Agent Skills
+## Official Agent Skills And Customization
 
 | Name | Organization | Service Scope | Skill Format | Evidence | Links |
 | --- | --- | --- | --- | --- | --- |
@@ -85,6 +85,17 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 | Coze Skills | Coze | `mainland-china / international` | platform-skill | B | [Docs](https://www.coze.cn/overview) |
 | DiDi Skills | DiDi | `mainland-china` | mcp-backed-skill | B | [Docs](https://mcp.didichuxing.com/claw) |
 | Sentry Agent Skills | Sentry | `global` | dotagents, npx-skills | A | [Docs](https://docs.sentry.io/platforms/javascript/guides/cloudflare/tracing/instrumentation/ai-agents-module/) |
+| GitHub Copilot Custom Instructions | GitHub / Microsoft | `global` | copilot-instructions.md, instructions.md, prompt.md, chatmode.md, AGENTS.md | A | [Docs](https://docs.github.com/en/copilot/concepts/prompting/response-customization) |
+| Devin Skills | Cognition | `global` | `SKILL.md`, playbooks | A | [Docs](https://docs.devin.ai/product-guides/skills) |
+| Manus Skills | Manus | `global` | manus-skill, skill-upload, official-skill-library | A | [Docs](https://manus.im/docs/features/skills) |
+| Cline Skills | Cline | `global` | `SKILL.md`, rules, workflows | A | [Docs](https://docs.cline.bot/customization/skills) |
+| Cursor Rules | Anysphere / Cursor | `global` | .cursor/rules, .cursorrules | A | [Docs](https://docs.cursor.com/en/context/rules) |
+| Continue Rules and Checks | Continue | `global` | .continue/rules, .continue/checks, .agents/checks | A | [Docs](https://docs.continue.dev/customize/rules) |
+| OpenHands Microagents | OpenHands | `global` | AGENTS.md, microagents, .openhands/microagents | A | [Docs](https://docs.openhands.dev/overview/skills/repo) |
+| JetBrains Junie Guidelines | JetBrains | `global` | .junie/AGENTS.md, AGENTS.md, guidelines.md | A | [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) |
+| Gemini CLI Context Files | Google | `global` | GEMINI.md, memory, context-imports | A | [Docs](https://google-gemini.github.io/gemini-cli/docs/cli/gemini-md.html) |
+| Warp Agent Rules | Warp | `global` | AGENTS.md, WARP.md, global-rules, project-rules | A | [Docs](https://docs.warp.dev/agent-platform/capabilities/rules) |
+| Zed Agent Rules | Zed | `global` | .rules, AGENTS.md, CLAUDE.md, GEMINI.md, rules-library | A | [Docs](https://zed.dev/docs/ai/rules) |
 
 ## Data
 

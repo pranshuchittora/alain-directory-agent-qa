@@ -41,7 +41,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 
 - Official MCP servers and hosted MCP endpoints
 - MCP platforms, registries, marketplaces, gateways, and governance tools
-- Official Agent Skills, \`SKILL.md\` systems, and skill marketplaces
+- Official Agent Skills, \`SKILL.md\` systems, skill marketplaces, and skill-like agent customization surfaces
 - Global, mainland China, and international service editions, with evidence levels for every entry
 
 ## Evidence Levels
@@ -69,7 +69,7 @@ This project is official-first. It tracks platform-backed agent capabilities: of
 
 ${mcpTable(mcpEntries, "en")}
 
-## Official Agent Skills
+## Official Agent Skills And Customization
 
 ${skillsTable(skillEntries, "en")}
 
@@ -101,7 +101,7 @@ function renderChinese(mcpEntries, skillEntries) {
 
 - 官方 MCP Server 与托管 MCP 端点
 - MCP 平台、注册表、市场、网关与治理工具
-- 官方 Agent Skills、\`SKILL.md\` 系统与 Skill 市场
+- 官方 Agent Skills、\`SKILL.md\` 系统、Skill 市场，以及类似 skill 的 Agent 自定义能力
 - 全球服务、中国大陆版、海外版服务，并为每个条目标注证据等级
 
 ## 证据等级
@@ -129,7 +129,7 @@ function renderChinese(mcpEntries, skillEntries) {
 
 ${mcpTable(mcpEntries, "zh")}
 
-## 官方 Agent Skills
+## 官方 Agent Skills 与自定义能力
 
 ${skillsTable(skillEntries, "zh")}
 

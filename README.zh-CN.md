@@ -10,7 +10,7 @@
 
 - 官方 MCP Server 与托管 MCP 端点
 - MCP 平台、注册表、市场、网关与治理工具
-- 官方 Agent Skills、`SKILL.md` 系统与 Skill 市场
+- 官方 Agent Skills、`SKILL.md` 系统、Skill 市场，以及类似 skill 的 Agent 自定义能力
 - 全球服务、中国大陆版、海外版服务，并为每个条目标注证据等级
 
 ## 证据等级
@@ -71,7 +71,7 @@
 | Postman Official MCP Server List | Postman | `global` | 官方目录, API 开发 | A | [Directory](https://www.postman.com/getmcp/official-mcp-server-list/overview) |
 | Sentry MCP Server and Monitoring | Sentry | `global` | 远程 Server, 可观测性, 问题排查, 监控 | A | [Docs](https://docs.sentry.io/product/sentry-mcp/) |
 
-## 官方 Agent Skills
+## 官方 Agent Skills 与自定义能力
 
 | 名称 | 组织 | 服务范围 | Skill 形态 | 证据 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -85,6 +85,17 @@
 | Coze Skills | Coze | `mainland-china / international` | platform-skill | B | [Docs](https://www.coze.cn/overview) |
 | DiDi Skills | DiDi | `mainland-china` | mcp-backed-skill | B | [Docs](https://mcp.didichuxing.com/claw) |
 | Sentry Agent Skills | Sentry | `global` | dotagents, npx-skills | A | [Docs](https://docs.sentry.io/platforms/javascript/guides/cloudflare/tracing/instrumentation/ai-agents-module/) |
+| GitHub Copilot Custom Instructions | GitHub / Microsoft | `global` | copilot-instructions.md, instructions.md, prompt.md, chatmode.md, AGENTS.md | A | [Docs](https://docs.github.com/en/copilot/concepts/prompting/response-customization) |
+| Devin Skills | Cognition | `global` | `SKILL.md`, playbooks | A | [Docs](https://docs.devin.ai/product-guides/skills) |
+| Manus Skills | Manus | `global` | manus-skill, skill-upload, official-skill-library | A | [Docs](https://manus.im/docs/features/skills) |
+| Cline Skills | Cline | `global` | `SKILL.md`, rules, workflows | A | [Docs](https://docs.cline.bot/customization/skills) |
+| Cursor Rules | Anysphere / Cursor | `global` | .cursor/rules, .cursorrules | A | [Docs](https://docs.cursor.com/en/context/rules) |
+| Continue Rules and Checks | Continue | `global` | .continue/rules, .continue/checks, .agents/checks | A | [Docs](https://docs.continue.dev/customize/rules) |
+| OpenHands Microagents | OpenHands | `global` | AGENTS.md, microagents, .openhands/microagents | A | [Docs](https://docs.openhands.dev/overview/skills/repo) |
+| JetBrains Junie Guidelines | JetBrains | `global` | .junie/AGENTS.md, AGENTS.md, guidelines.md | A | [Docs](https://www.jetbrains.com/help/ai-assistant/junie-agent.html) |
+| Gemini CLI Context Files | Google | `global` | GEMINI.md, memory, context-imports | A | [Docs](https://google-gemini.github.io/gemini-cli/docs/cli/gemini-md.html) |
+| Warp Agent Rules | Warp | `global` | AGENTS.md, WARP.md, global-rules, project-rules | A | [Docs](https://docs.warp.dev/agent-platform/capabilities/rules) |
+| Zed Agent Rules | Zed | `global` | .rules, AGENTS.md, CLAUDE.md, GEMINI.md, rules-library | A | [Docs](https://zed.dev/docs/ai/rules) |
 
 ## 数据
 

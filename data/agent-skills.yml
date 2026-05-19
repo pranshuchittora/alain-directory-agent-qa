@@ -134,3 +134,171 @@
   evidence_level: A
   last_checked: 2026-05-20
   notes: Sentry docs publish agent skills for setting up AI Agent Monitoring in coding assistants.
+
+- name: GitHub Copilot Custom Instructions
+  organization: GitHub / Microsoft
+  service_scope: global
+  category: agent-customization
+  skill_format:
+    - copilot-instructions.md
+    - instructions.md
+    - prompt.md
+    - chatmode.md
+    - AGENTS.md
+  official_links:
+    - https://docs.github.com/en/copilot/concepts/prompting/response-customization
+    - https://code.visualstudio.com/docs/copilot/customization/custom-instructions
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: GitHub Copilot and VS Code document repository, organization, file-based, prompt-file, chat-mode, and AGENTS.md style customizations.
+
+- name: Devin Skills
+  organization: Cognition
+  service_scope: global
+  category: official-agent-skills
+  skill_format:
+    - SKILL.md
+    - playbooks
+  official_links:
+    - https://docs.devin.ai/product-guides/skills
+    - https://cli.devin.ai/docs/extensibility/rules
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Devin documents SKILL.md files that follow the open Agent Skills standard, plus playbooks and AGENTS.md/rules support.
+
+- name: Manus Skills
+  organization: Manus
+  service_scope: global
+  category: official-agent-skills
+  skill_format:
+    - manus-skill
+    - skill-upload
+    - official-skill-library
+  official_links:
+    - https://manus.im/docs/features/skills
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Manus documents user-created, uploaded, GitHub-imported, and official prebuilt Skills maintained by the Manus team.
+
+- name: Cline Skills
+  organization: Cline
+  service_scope: global
+  category: official-agent-skills
+  skill_format:
+    - SKILL.md
+    - rules
+    - workflows
+  official_links:
+    - https://docs.cline.bot/customization/skills
+    - https://docs.cline.bot/customization/overview
+    - https://docs.cline.bot/customization/cline-rules
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Cline documents on-demand Skills, always-active Rules, Workflows, Hooks, and ignore files for agent customization.
+
+- name: Cursor Rules
+  organization: Anysphere / Cursor
+  service_scope: global
+  category: agent-customization
+  skill_format:
+    - .cursor/rules
+    - .cursorrules
+  official_links:
+    - https://docs.cursor.com/en/context/rules
+    - https://docs.cursor.com/en/context
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Cursor documents project Rules in `.cursor/rules` and related context customization surfaces for its coding agent.
+
+- name: Continue Rules and Checks
+  organization: Continue
+  service_scope: global
+  category: agent-customization
+  skill_format:
+    - .continue/rules
+    - .continue/checks
+    - .agents/checks
+  official_links:
+    - https://docs.continue.dev/customize/rules
+    - https://docs.continue.dev/checks/reference
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Continue documents local Rules for AI agents and check files for review-style agent behavior.
+
+- name: OpenHands Microagents
+  organization: OpenHands
+  service_scope: global
+  category: agent-customization
+  skill_format:
+    - AGENTS.md
+    - microagents
+    - .openhands/microagents
+  official_links:
+    - https://docs.openhands.dev/overview/skills/repo
+    - https://docs.openhands.dev/openhands/usage/microagents/microagents-repo
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: OpenHands documents repository skills and microagent-style files for reusable project context and behavior guidance.
+
+- name: JetBrains Junie Guidelines
+  organization: JetBrains
+  service_scope: global
+  category: agent-customization
+  skill_format:
+    - .junie/AGENTS.md
+    - AGENTS.md
+    - guidelines.md
+  official_links:
+    - https://www.jetbrains.com/help/ai-assistant/junie-agent.html
+    - https://junie.jetbrains.com/
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: JetBrains Junie documents persistent, reusable Guidelines stored in `.junie/AGENTS.md`, AGENTS.md, or legacy guidelines files.
+
+- name: Gemini CLI Context Files
+  organization: Google
+  service_scope: global
+  category: agent-customization
+  skill_format:
+    - GEMINI.md
+    - memory
+    - context-imports
+  official_links:
+    - https://google-gemini.github.io/gemini-cli/docs/cli/gemini-md.html
+    - https://github.com/google-gemini/gemini-cli
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Gemini CLI documents hierarchical GEMINI.md context files, memory commands, and file imports for agent customization.
+
+- name: Warp Agent Rules
+  organization: Warp
+  service_scope: global
+  category: agent-customization
+  skill_format:
+    - AGENTS.md
+    - WARP.md
+    - global-rules
+    - project-rules
+  official_links:
+    - https://docs.warp.dev/agent-platform/capabilities/rules
+    - https://docs.warp.dev/agents/overview
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Warp documents Global Rules and Project Rules, including AGENTS.md and WARP.md support for agent context.
+
+- name: Zed Agent Rules
+  organization: Zed
+  service_scope: global
+  category: agent-customization
+  skill_format:
+    - .rules
+    - AGENTS.md
+    - CLAUDE.md
+    - GEMINI.md
+    - rules-library
+  official_links:
+    - https://zed.dev/docs/ai/rules
+    - https://zed.dev/docs/ai/agent-settings
+  evidence_level: A
+  last_checked: 2026-05-20
+  notes: Zed documents `.rules`, Rules Library, and compatibility with common agent instruction files for its Agent Panel.

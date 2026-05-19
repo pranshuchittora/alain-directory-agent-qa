@@ -7,7 +7,7 @@ This project is official-first.
 - Official MCP servers from the service provider.
 - Official MCP clients or first-party MCP support in agent platforms.
 - Official MCP marketplaces, registries, gateways, or governance surfaces.
-- Official Agent Skills, `SKILL.md` systems, skill stores, or platform skill ecosystems.
+- Official Agent Skills, `SKILL.md` systems, skill stores, platform skill ecosystems, and official skill-like agent customization surfaces.
 - High-quality entries from global, mainland China, and international service editions when official evidence is available.
 
 ## Not Included In Main Tables
@@ -48,6 +48,8 @@ MCP entries should also include:
 Skill entries should also include:
 
 - `skill_format`
+
+Skill-like entries may use names such as Skills, Rules, Guidelines, Instructions, Prompt Files, Chat Modes, Microagents, or Context Files. They should stay in this data set only when an official product surface documents reusable agent behavior or reusable task guidance.
 
 ## Service Scope
 
