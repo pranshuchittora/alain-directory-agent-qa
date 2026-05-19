@@ -1,7 +1,7 @@
 - name: DiDi MCP Service
   owner: DiDi
   vertical: mobility
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: official
   mcp_status: official-server
   skill_status: official-skill
@@ -21,7 +21,7 @@
 - name: Tencent Docs MCP
   owner: Tencent
   vertical: docs
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: official
   mcp_status: official-server
   skill_status: unknown
@@ -39,7 +39,7 @@
 - name: Tencent RTC / Instant Messaging MCP
   owner: Tencent Cloud
   vertical: communication
-  service_scope: cn-and-international
+  service_scope: mainland-china / international
   official_status: official
   mcp_status: official-server
   skill_status: docs-mention
@@ -49,7 +49,7 @@
     - https://intl.cloud.tencent.com/document/product/1047/78210
   editions:
     - name: Tencent Cloud China
-      service_scope: cn-mainland
+      service_scope: mainland-china
       domains:
         - cloud.tencent.com
     - name: Tencent Cloud International
@@ -66,7 +66,7 @@
 - name: WeChat Pay MCP
   owner: Tencent / WeChat Pay
   vertical: payment
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: official
   mcp_status: official-plugin
   skill_status: none-found
@@ -84,7 +84,7 @@
 - name: Feishu / Lark OpenAPI MCP
   owner: ByteDance / Lark
   vertical: workplace
-  service_scope: cn-international-split
+  service_scope: mainland-china / international
   official_status: official
   mcp_status: official-server
   skill_status: third-party-skills
@@ -95,7 +95,7 @@
     - https://open.larksuite.com/document/mcp_open_tools/call-feishu-mcp-server-in-remote-mode
   editions:
     - name: Feishu
-      service_scope: cn-mainland
+      service_scope: mainland-china
       domains:
         - open.feishu.cn
         - accounts.feishu.cn
@@ -116,7 +116,7 @@
 - name: DingTalk MCP
   owner: Alibaba / DingTalk
   vertical: workplace
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: official
   mcp_status: official-server
   skill_status: third-party-skills
@@ -134,7 +134,7 @@
 - name: Alipay MCP
   owner: Ant Group / Alipay
   vertical: payment
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: needs-official-docs
   mcp_status: official-package-or-marketplace
   skill_status: none-found
@@ -156,7 +156,7 @@
 - name: Baidu Maps MCP
   owner: Baidu Maps
   vertical: maps
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: official
   mcp_status: official-server
   skill_status: none-found
@@ -172,7 +172,7 @@
 - name: AMap MCP
   owner: AutoNavi / AMap
   vertical: maps
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: likely-official
   mcp_status: official-package-or-marketplace
   skill_status: third-party-skills
@@ -190,7 +190,7 @@
 - name: Kuaidi100 MCP
   owner: Kuaidi100 API
   vertical: logistics
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: official
   mcp_status: official-server
   skill_status: none-found
@@ -209,7 +209,7 @@
 - name: WeChat Read MCP
   owner: Tencent / WeChat Read
   vertical: reading
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: community-marketplace
   mcp_status: third-party-server
   skill_status: none-found
@@ -228,7 +228,7 @@
 - name: Enterprise WeChat / WeCom MCP
   owner: Tencent / WeCom
   vertical: workplace
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: unverified
   mcp_status: community-only
   skill_status: third-party-skills
@@ -246,7 +246,7 @@
 - name: WPS Office MCP
   owner: Kingsoft Office / WPS
   vertical: office
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: unverified
   mcp_status: third-party-or-rumored
   skill_status: none-found
@@ -262,7 +262,7 @@
 - name: Baidu Netdisk MCP
   owner: Baidu
   vertical: cloud-storage
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: community-only
   mcp_status: third-party-server
   skill_status: none-found
@@ -279,7 +279,7 @@
 - name: WeChat Official Accounts MCP
   owner: Tencent / WeChat
   vertical: content
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: community-only
   mcp_status: third-party-server
   skill_status: none-found
@@ -296,7 +296,7 @@
 - name: WeChat Mini Program Dev MCP
   owner: Tencent / WeChat
   vertical: developer-tools
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: community-only
   mcp_status: third-party-server
   skill_status: third-party-skills
@@ -313,7 +313,7 @@
 - name: Tencent Meeting MCP
   owner: Tencent Meeting
   vertical: meetings
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: unverified
   mcp_status: not-confirmed
   skill_status: third-party-skill
@@ -329,7 +329,7 @@
 - name: Xiaohongshu MCP
   owner: Xiaohongshu
   vertical: social-commerce
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: community-only
   mcp_status: third-party-server
   skill_status: none-found
@@ -348,7 +348,7 @@
 - name: Douyin MCP
   owner: ByteDance / Douyin
   vertical: short-video
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: community-only
   mcp_status: third-party-server
   skill_status: third-party-plugin
@@ -366,7 +366,7 @@
 - name: Bilibili MCP
   owner: Bilibili
   vertical: video
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: community-only
   mcp_status: third-party-server
   skill_status: none-found
@@ -383,7 +383,7 @@
 - name: Meituan MCP
   owner: Meituan
   vertical: local-services
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: not-found
   mcp_status: not-confirmed
   skill_status: none-found
@@ -398,7 +398,7 @@
 - name: Ctrip / Trip.com MCP
   owner: Trip.com Group
   vertical: travel
-  service_scope: cn-international-split
+  service_scope: mainland-china / international
   official_status: not-found
   mcp_status: not-confirmed
   skill_status: none-found
@@ -407,7 +407,7 @@
     - https://apitracker.io/a/ctrip/mcp
   editions:
     - name: Ctrip
-      service_scope: cn-mainland
+      service_scope: mainland-china
       domains:
         - ctrip.com
     - name: Trip.com
@@ -422,7 +422,7 @@
 - name: SF Express MCP
   owner: SF Express
   vertical: logistics
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: not-found
   mcp_status: not-confirmed
   skill_status: none-found
@@ -437,7 +437,7 @@
 - name: JD / Taobao / Tmall / Cainiao MCP
   owner: JD / Alibaba commerce ecosystem
   vertical: ecommerce
-  service_scope: cn-mainland
+  service_scope: mainland-china
   official_status: not-found
   mcp_status: not-confirmed
   skill_status: none-found

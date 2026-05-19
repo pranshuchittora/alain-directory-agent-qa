@@ -63,7 +63,7 @@
 
 - name: MiniMax Skills
   organization: MiniMax
-  service_scope: cn-international-split
+  service_scope: mainland-china / international
   category: official-agent-skills
   skill_format:
     - SKILL.md
@@ -76,7 +76,7 @@
 
 - name: Huawei AgentArts Skill
   organization: Huawei Cloud
-  service_scope: cn-mainland
+  service_scope: mainland-china
   category: platform-skills
   skill_format:
     - platform-skill
@@ -88,7 +88,7 @@
 
 - name: Coze Skills
   organization: Coze
-  service_scope: cn-international-split
+  service_scope: mainland-china / international
   category: platform-skills
   skill_format:
     - platform-skill
@@ -98,7 +98,7 @@
     - https://space.coze.cn/space-intro
   editions:
     - name: Coze China
-      service_scope: cn-mainland
+      service_scope: mainland-china
       domains:
         - coze.cn
         - space.coze.cn
@@ -112,7 +112,7 @@
 
 - name: DiDi Skills
   organization: DiDi
-  service_scope: cn-mainland
+  service_scope: mainland-china
   category: platform-skills
   skill_format:
     - mcp-backed-skill

@@ -1,17 +1,17 @@
 - name: DeepSeek
-  service_scope: cn-mainland
+  service_scope: mainland-china
   status: unverified
   reason: No official MCP server or skills repository confirmed yet; most visible implementations are third-party.
   last_checked: 2026-05-19
 
 - name: WPS Office
-  service_scope: cn-mainland
+  service_scope: mainland-china
   status: unverified
   reason: Community and media references exist, but stable official MCP docs were not confirmed.
   last_checked: 2026-05-19
 
 - name: iFlytek Spark
-  service_scope: cn-mainland
+  service_scope: mainland-china
   status: unverified
   reason: Needs official platform documentation check for MCP or skills support.
   last_checked: 2026-05-19

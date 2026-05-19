@@ -8,7 +8,7 @@ This project is official-first.
 - Official MCP clients or first-party MCP support in agent platforms.
 - Official MCP marketplaces, registries, gateways, or governance surfaces.
 - Official Agent Skills, `SKILL.md` systems, skill stores, or platform skill ecosystems.
-- High-quality entries from domestic, international, and split-edition ecosystems when official evidence is available.
+- High-quality entries from global, mainland China, and international service editions when official evidence is available.
 
 ## Not Included In Main Tables
 
@@ -51,23 +51,23 @@ Skill entries should also include:
 
 ## Service Scope
 
-`service_scope` describes the service/API edition, not where the company is based.
+`service_scope` describes the service/API edition, not where the company is based. Keep it as a simple market label, not a detailed taxonomy.
 
 Use these values:
 
 - `global`: one global service/API surface.
-- `cn-mainland`: mainland China edition or mainland-only docs/endpoints.
+- `mainland-china`: mainland China edition or mainland-only docs/endpoints.
 - `international`: non-mainland or overseas edition.
-- `cn-and-international`: one documented capability spans both mainland and international surfaces.
-- `cn-international-split`: separate domestic and international editions, domains, accounts, or API hosts.
+- `mainland-china / international`: both domestic and overseas editions matter for this entry.
 - `unknown`: scope is not confirmed yet.
 
-When a platform has separate domestic and international editions, include `editions`:
+When a platform has separate domestic and international editions, keep `service_scope` simple and include details in `editions`:
 
 ```yaml
+service_scope: mainland-china / international
 editions:
   - name: Feishu
-    service_scope: cn-mainland
+    service_scope: mainland-china
     domains:
       - open.feishu.cn
   - name: Lark

@@ -287,7 +287,7 @@
 
 - name: Alibaba Cloud Model Studio MCP
   organization: Alibaba Cloud
-  service_scope: cn-mainland
+  service_scope: mainland-china
   category: mcp-platform
   role:
     - marketplace
@@ -308,7 +308,7 @@
 
 - name: ModelScope MCP Marketplace
   organization: ModelScope
-  service_scope: cn-mainland
+  service_scope: mainland-china
   category: mcp-marketplace
   role:
     - marketplace
@@ -326,7 +326,7 @@
 
 - name: Baidu Qianfan / Comate MCP
   organization: Baidu
-  service_scope: cn-mainland
+  service_scope: mainland-china
   category: mcp-platform
   role:
     - app-builder
@@ -348,7 +348,7 @@
 
 - name: Tencent Yuanqi / CloudBase MCP
   organization: Tencent
-  service_scope: cn-mainland
+  service_scope: mainland-china
   category: mcp-platform
   role:
     - plugin-marketplace
@@ -370,7 +370,7 @@
 
 - name: Huawei AgentArts MCP
   organization: Huawei Cloud
-  service_scope: cn-mainland
+  service_scope: mainland-china
   category: mcp-platform
   role:
     - marketplace
@@ -390,7 +390,7 @@
 
 - name: MiniMax MCP
   organization: MiniMax
-  service_scope: cn-international-split
+  service_scope: mainland-china / international
   category: official-mcp-server
   role:
     - server
@@ -410,7 +410,7 @@
         - platform.minimax.io
         - api.minimax.io
     - name: MiniMax Mainland China
-      service_scope: cn-mainland
+      service_scope: mainland-china
       domains:
         - api.minimaxi.com
   evidence_level: A
@@ -422,7 +422,7 @@
 
 - name: Z.ai MCP Calling
   organization: Z.ai
-  service_scope: cn-and-international
+  service_scope: mainland-china / international
   category: mcp-platform
   role:
     - api-mcp-calling
@@ -440,7 +440,7 @@
         - docs.z.ai
         - api.z.ai
     - name: Zhipu / Z Code
-      service_scope: cn-mainland
+      service_scope: mainland-china
       domains:
         - zcode.z.ai
   evidence_level: A
@@ -452,7 +452,7 @@
 
 - name: Kimi Playground MCP
   organization: Moonshot AI
-  service_scope: cn-mainland
+  service_scope: mainland-china
   category: mcp-client-integration
   role:
     - client-integration
