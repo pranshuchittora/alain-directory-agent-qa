@@ -62,12 +62,6 @@ This project is official-first. It does not try to be another broad MCP server d
 | Coze Skills | Coze | China | Platform skills | B | [Overview](https://www.coze.cn/overview) |
 | DiDi Skills | DiDi | China | MCP-backed lightweight skills | B | [Docs](https://mcp.didichuxing.com/claw) |
 
-## Related Projects
-
-- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers): broad MCP server directory.
-- [Awesome MCP Clients](https://github.com/punkpeye/awesome-mcp-clients): MCP client directory.
-- [Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH): Chinese MCP beginner guide and curated resource list.
-
 ## Data
 
 The README is intentionally short. Structured data lives in:
